@@ -12,6 +12,24 @@
     display: block;
     width: 90%;
 }
+.nav-section{
+    background-color: rgb(255, 215, 200);
+    text-align: right;
+}
+.nav-section a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.nav-section a:hover{
+    color: orangered;
+    border-radius: 20px;
+    background: white;
+}
 /*hello section*/
 .hello-section{
     display: flex;
