@@ -112,6 +112,10 @@
     padding: 20px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.recipie-card:hover{
+    opacity: 0.7;
 }
 .recipie-card p{
     text-align: left;
@@ -131,8 +135,40 @@
     padding: 10px;
     font-size: 1rem;
 }
-
-
+/*classes section*/
+.class-section{
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-size: contain;
+    padding: 30px;
+}
+.class-section .details-text{
+    margin: auto auto;
+    width: 50%
+}
+.class-section p{
+    text-align: center;
+}
+.class-card{
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.class-card:hover{
+    opacity: 0.7;
+}
+.class-card p{
+    text-align: center;
+}
+.class-image{
+    width: 100%;
+    max-height: 80%;
+    overflow: hidden;
+    object-fit: fill;
+}
 /*newsletter section*/
 .stats-div{
     width: 71%;
