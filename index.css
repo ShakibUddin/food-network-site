@@ -17,12 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 215, 200);
 }
 .title{
     font-size: 2rem;
     color: black;
     padding: 20px 10px;
-    margin: 10px;
+    margin: 0 10px 10px;
     font-weight: bold;
 }
 .details-text{
@@ -48,7 +49,7 @@
     padding: 20px;
     margin: 40px 10px;
     color: white;
-    background: linear-gradient(orangered, orange);
+    background: linear-gradient(orangered, rgb(255, 199, 95));
     border-radius: 20px;
     box-shadow: orange 0px 0px 10px;
 }
@@ -56,17 +57,25 @@
 /*about section*/
 .about-section{
     display: flex;
-    background-image: url("images/shapes/7.png");
+    background-image: url("images/shapes/Frame\ 59.jpg");
     background-size: 100vw;
     background-repeat: none;
     align-items: center;
     justify-content: center;
+}
+.about-section .primary-button{
+    background: linear-gradient(rgb(255, 0, 255), rgb(255, 150, 255));
+    box-shadow: rgb(255, 0, 255) 0px 0px 10px;
 }
 .about-section img{
     width: 50%;
 }
 
 /*recipie section*/
+.recipies-section{
+    background-image: url("images/shapes/Frame\ 58.jpg");
+    background-size: contain;
+}
 .recipies-section p{
     text-align: center;
 }
@@ -105,8 +114,9 @@
     font-size: 1rem;
 }
 
-/*stats section*/
-.stats-section{
+
+/*newsletter section*/
+.stats-div{
     width: 71%;
     margin: 40px auto;
     padding: 20px;
@@ -115,6 +125,7 @@
     justify-content: space-around;
     border-radius: 20px;
     text-align: center;
+    background-color: white;
 }
 .score{
     font-size: 2rem;
@@ -123,19 +134,22 @@
 .platform{
     font-size: 1rem;
 }
-
-/*newsletter section*/
 .newsletter-section{
-    margin: 30px;
+    padding: 30px;
     text-align: center;
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-size: contain;
 }
 .newsletter-section .details-text{
     width: 100%;
 }
+.newsletter-section .colored-text{
+    color: blue;
+}
 .input-box{
     margin: 10px;
     padding: 10px;
-    border: 2px solid orange;
+    border: 2px solid blue;
     outline: none;
     border-radius: 20px;
     font-size: 1rem;
@@ -148,7 +162,7 @@
     cursor: pointer;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background: linear-gradient(orangered, orange);
+    background: linear-gradient( blue,rgb(124, 122, 255));
 }
 /*footer*/
 .footer{
