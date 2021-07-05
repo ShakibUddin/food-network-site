@@ -1,16 +1,34 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 50vw;
+    padding: 30px 30px 0px 30px;
+}
+.half-width img{
+    margin: auto auto;
+    display: block;
+    width: 90%;
 }
 .hello-section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fcf9f5;
 }
-.text-div{
-    width: 50vw;
-    padding-left: 20px;
+.title{
+    font-size: 2rem;
+    color: black;
+    padding: 20px 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.details-text{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
 }
 .welcome-title{
     font-size: 2.8rem;
@@ -20,12 +38,6 @@
     color: orangered;
     padding: 10px;
 }
-.objective-text{
-    font-size: 1.2rem;
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
-}
 .primary-button{
     display: block;
     width: 30%;
@@ -33,21 +45,14 @@
     font-size: 1.3rem;
     text-decoration: none;
     padding: 20px;
-    margin: 10px 20px;
+    margin: 40px 10px;
     color: white;
     background: linear-gradient(orangered, orange);
-    border-radius: 35px;
+    border-radius: 20px;
     box-shadow: -4px -4px 10 orange;
 }
-.image-div{
-    width: 50vw;
-}
-.image{
-    display: block;
-    width: 80%;
-    margin: auto auto;
-}
 
+/*about section*/
 .about-section{
     display: flex;
     background-image: url("images/shapes/7.png");
@@ -56,15 +61,46 @@
     align-items: center;
     justify-content: center;
 }
-.about-title{
-    font-size: 2rem;
-    color: black;
-    padding: 10px;
-    margin: 10px;
-}
-.about-details-text{
-    font-size: 1.2rem;
+.about-section img{
     width: 50%;
-    padding: 10px;
-    margin: 10px;
 }
+
+/*recipie section*/
+.recipies-section p{
+    text-align: center;
+}
+.recipies-section .details-text{
+    margin: auto auto;
+    width: 50%
+}
+.recipies-div{
+    display: flex;
+    justify-content: center;
+}
+.recipie-card{
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.recipie-card p{
+    text-align: left;
+}
+.recipie-image{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: fill;
+}
+.recipie-title{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.recipie-details{
+    padding: 10px;
+    font-size: 1rem;
+}
+
