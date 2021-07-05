@@ -12,6 +12,7 @@
     display: block;
     width: 90%;
 }
+/*hello section*/
 .hello-section{
     display: flex;
     align-items: center;
@@ -49,7 +50,7 @@
     color: white;
     background: linear-gradient(orangered, orange);
     border-radius: 20px;
-    box-shadow: -4px -4px 10 orange;
+    box-shadow: orange 0px 0px 10px;
 }
 
 /*about section*/
@@ -104,3 +105,32 @@
     font-size: 1rem;
 }
 
+/*stats section*/
+.stats-section{
+    width: 71%;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-around;
+    border-radius: 20px;
+    text-align: center;
+}
+.score{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.platform{
+    font-size: 1rem;
+}
+
+
+/*footer*/
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+.footer p{
+    color: white;
+}
